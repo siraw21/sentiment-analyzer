@@ -1,39 +1,25 @@
-# Python cache
-
-**pycache**/
-_.py[cod]
-_$py.class
-
-# Virtual environment
-
+# Virtual environments
 venv/
 .venv/
 env/
 
-# Testing
+# Python
+__pycache__/
+*.py[cod]
 
+# Testing
 .pytest_cache/
 .coverage
 htmlcov/
 
 # IDE
-
 .vscode/
 .idea/
 
 # Environment variables
-
 .env
-.env.\*
-
-# Hugging Face model cache
-
-.cache/
-models/
-_.safetensors
-_.bin
+.env.*
 
 # OS files
-
 .DS_Store
 Thumbs.db
